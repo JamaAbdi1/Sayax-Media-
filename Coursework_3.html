@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Middle East Conflict News</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #c00;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 5px;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        audio {
+            margin-top: 15px;
+        }
+
+        /* NEWS TICKER */
+        .ticker {
+            width: 100%;
+            background: black;
+            color: white;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 12px 0;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .ticker p {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll 18s linear infinite;
+            font-weight: bold;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌍 Middle East Conflict News</h1>
+</header>
+
+<div class="container">
+
+    <h2>Rising Tensions in the Middle East</h2>
+
+    <!-- REALISTIC PARAGRAPH -->
+    <p>
+        The Middle East continues to experience rising tensions as conflicts involving 
+        countries such as Iran, Israel, and neighboring regions develop. Recent reports 
+        indicate increased military activity, diplomatic efforts for ceasefire, and growing 
+        concern from the international community. Global leaders are calling for peaceful 
+        negotiations to prevent further escalation, while humanitarian organizations warn 
+        about the impact on civilians. The situation remains complex, with ongoing discussions 
+        aimed at restoring stability in the region.
+    </p>
+
+    <!-- RELEVANT NEWS IMAGE -->
+    <img src="https://source.unsplash.com/500x300/?war,conflict,middle-east"
+         alt="Middle East Conflict News">
+
+    <br><br>
+
+    <!-- DIRECT NEWS LINKS -->
+    <p>Continue reading from trusted sources:</p>
+
+    <a href="https://www.aljazeera.com/where/iran/" target="_blank">
+        Read on aljazeera (Middle East News)
+    </a>
+    <br>
+
+    <a href="https://www.foxnews.com/world" target="_blank">
+        Read on Fox News (World Section)
+    </a>
+
+    <br><br>
+
+    <!-- AUDIO -->
+    <p>Listen to background news audio:</p>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+<!-- BREAKING NEWS TICKER -->
+<div class="ticker">
+    <p>
+        🔴 BREAKING: Middle East tensions escalate | Iran and regional forces on alert |
+        Diplomatic talks ongoing | Civilians affected by conflict | Global leaders urge peace
+    </p>
+</div>
+
+</body>
+</html>
