@@ -11,7 +11,7 @@ It focuses on presenting information about the **Middle East conflict**, includi
 
 * 📰 News article about the Middle East conflict
 * 🖼 Online image related to war/conflict
-* 🔗 Direct links to trusted sources (BBC & Fox News)
+* 🔗 Direct links to trusted sources (aljazeera & Fox News)
 * 🔊 Online audio playback
 * 📺 Animated breaking news ticker (scrolling text)
 * 🎨 Styled layout using CSS
